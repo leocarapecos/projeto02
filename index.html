@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda de Contatos</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>Agenda de Contatos</h1>
+    </header>
+    <div class="container">
+
+        <section id="novo-contato">
+            <h2>Novo Contato</h2>
+            
+            <form id="formulario">
+                
+                <input type="text" name="nomet" placeholder="Nome" id="nome" required>
+                <input type="tel" name="numero" placeholder="Contato" id="numero" required>
+
+                <button id="botao" type="submit">Adicionar</button>
+
+            </form>
+        </section>
+        <section id="lista-contatos">
+            <h2>Lista de Contatos</h2>
+            
+            
+            
+            <div class="tabela">
+
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Contato</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="tabvalor">
+                        
+                    </tbody>
+                </table>
+                
+            </div>
+            
+        </section>
+
+    </div>
+    
+        
+    <footer> &copy;Leonardo Carapecos</footer>
+
+    <script src="./main.js"></script>
+    
+</body>
+
+
+</html>

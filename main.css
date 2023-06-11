@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+
+body{
+
+    font-family: 'Poppins';
+    
+    
+    background-image:url(./imagens/background.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover ;
+
+    
+    color: #E6EFF6;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section{
+
+    min-height: 60vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 341px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    /*box-shadow: 20px 20px 30px black;*/
+    font-size: 1.2em;
+
+
+}
+
+#novo-contato{
+    text-align: center;
+}
+
+#novo-contato input{
+    height: 40px;
+    width: 70%;
+    font-size: 0.9em;
+    color: #E6EFF6;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #E6EFF6;
+    outline: none;
+
+
+}
+#novo-contato  #botao{
+    height: 40px;
+    width: 70%;
+    margin-top: 20px;
+    color: #E6EFF6;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+
+input::placeholder{
+    color: #E6EFF6;
+    
+}
+
+
+
+#lista-contatos{
+    height: auto;
+}
+
+#lista-contatos h2{
+    text-align: center;
+}
+
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid #E6EFF6 ;
+    padding: 16px;
+    font-size: 1em;
+    
+}
+table td{
+    padding:16px 0 ;
+    text-align: center;
+    font-size: 0.8em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+}
+
+
+
+
+/*
+div{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+div label{
+    display: block;
+    margin: 5px;
+}
+
+
+*/
+
+footer{
+    color: black;
+    text-align: left;
+    margin-top: 80px;
+
+}
